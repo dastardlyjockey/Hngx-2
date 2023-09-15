@@ -2,11 +2,11 @@
 
 ## **Introduction**
 
-This document provides comprehensive documentation for the []API. The API allows users to perform CRUD operations on User resources
+This document provides comprehensive documentation for the https://person-api-26l6.onrender.com/api API. The API allows users to perform CRUD operations on User resources
 
 ## **Base URL**
 
-* The base URL for all API endpoints is: `[]`
+* The base URL for all API endpoints is: `https://person-api-26l6.onrender.com`
 
 ## **Authentication**
 
@@ -97,19 +97,19 @@ Here are sample HTTP requests using `curl` to interact with the API:
 
 **Create User**
 
-`curl -X POST -H "Content-Type: application/json" -d '{"name":"Fortune Onukansi"}' []`
+`curl -X POST -H "Content-Type: application/json" -d '{"name":"Fortune Onukansi"}' https://person-api-26l6.onrender.com/api`
 
 **Get User by ID**
 
-`curl []/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
+`curl https://person-api-26l6.onrender.com/api/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
 
 **Update User Name By ID**
 
-`curl -X PATCH -H "Content-Type: application/json" -d '{"name":"Fortune Onukansi"}' []/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
+`curl -X PATCH -H "Content-Type: application/json" -d '{"name":"Fortune Onukansi"}' https://person-api-26l6.onrender.com/api/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
 
 **Delete User by ID**
 
-`curl -X DELETE []/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
+`curl -X DELETE https://person-api-26l6.onrender.com/api/d07cae3f-e948-430b-bc64-9d8e4a7fb017`
 
 ## **Errors**
 
